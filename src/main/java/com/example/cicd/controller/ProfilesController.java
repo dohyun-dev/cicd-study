@@ -1,7 +1,6 @@
 package com.example.cicd.controller;
 
 import lombok.RequiredArgsConstructor;
-import lombok.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
