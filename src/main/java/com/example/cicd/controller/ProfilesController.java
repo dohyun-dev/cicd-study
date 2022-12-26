@@ -19,4 +19,9 @@ public class ProfilesController {
     public String getProfile() {
         return Arrays.stream(env.getActiveProfiles()).findFirst().orElse("");
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
 }
